@@ -5,7 +5,6 @@ import java.util.UUID;
 
 /**
  * Created by John Carlo Adamos on 10/27/2017.
- * Sample change for Github
  */
 
 public class Crime {
