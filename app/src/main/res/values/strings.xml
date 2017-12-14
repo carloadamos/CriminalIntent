@@ -16,4 +16,6 @@
     </plurals>
     <string name="subtitle_format">%1s crimes</string>
     <string name="date_picker_title">Date of crime:</string>
+    <string name="crime_report_text">Send Crime Report</string>
+    <string name="crime_suspect_text">Choose Suspect</string>
 </resources>
