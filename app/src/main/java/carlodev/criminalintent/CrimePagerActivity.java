@@ -18,7 +18,7 @@ import java.util.UUID;
  * Created by John Carlo Adamos on 11/13/2017.
  */
 
-public class CrimePagerActivity extends AppCompatActivity {
+public class CrimePagerActivity extends AppCompatActivity implements CrimeFragment.Callbacks {
     private static final String EXTRA_CRIME_ID = "com.carlodev.criminalintent.crime_id";
     private ViewPager mViewPager;
     private List<Crime> mCrimes;
@@ -58,5 +58,10 @@ public class CrimePagerActivity extends AppCompatActivity {
         Intent intent = new Intent(packageContext, CrimePagerActivity.class);
         intent.putExtra(EXTRA_CRIME_ID, crimeId);
         return intent;
+    }
+
+    @Override
+    public void onCrimeUpdated(Crime crime) {
+
     }
 }
